@@ -13,16 +13,16 @@ void main()
 	num[1] = 0;
 
 
-	for (i=0;i<5;i++) 
+	for (i = 0; i < 5; i++)
 	{
 		printf("PLease scanf a number: ");
 		scanf_s("%d", &a);
-		if (a==1||a==2) {
+		if (a == 1 || a == 2) {
 			ret = a - 1;
 		}
-		else{
-			for (k = 2; k < a;k++)
-			{	
+		else {
+			for (k = 2; k < a; k++)
+			{
 				num[1] = morenum;
 				morenum = morenum + num[0];
 				num[0] = num[1];
